@@ -1,7 +1,7 @@
 # easy-domain-gen
-Generates an easy to speak domain name in English.
 
-I want to generate a speakable domain name, comprised of two three letter words.
+I want to generate a speakable, English, domain name, comprised of two three letter words.
+The combination of words does NOT have to make any sense, pronounciation is the goal.
 This program should:
 1. Use the following rules for each three letter word:
 1.a MUST not start with a vowel.
