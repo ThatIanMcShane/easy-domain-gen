@@ -80,7 +80,19 @@ def getRandomDomain():
     randomDomain = domains[randomNumber]
     return randomDomain
 
+def getAllDomains():
+    return domains
+
+def getMultipleRandomDomains(count):
+    domainList = []
+    for x in range(count):
+        domainList.append(getRandomDomain())
+    return domainList
+
 if 'easyDomainGen.py' in sys.argv[0]:
     # if script is running from a shell
     # but with no arguments, print one random domain
+    print('- easyDomainGen.py -')
+    print('Pulling a random domain from ' + str(len(domains)) + ' domains.')
+    print('---')
     print(getRandomDomain())
